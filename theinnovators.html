@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Buku - Laskar Pelangi</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #3498db;
+            color: white;
+            margin-bottom: 30px;
+            border-radius: 5px;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .book-detail {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .book-cover {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .book-cover img {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .book-info {
+            flex: 2;
+            min-width: 300px;
+        }
+        
+        .book-title {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+        }
+        
+        .book-author {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        
+        .book-synopsis {
+            margin-bottom: 25px;
+        }
+        
+        .book-synopsis h3 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .book-details {
+            margin-top: 20px;
+        }
+        
+        .book-details p {
+            margin-bottom: 8px;
+        }
+        
+        .book-details strong {
+            color: #2c3e50;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Detail Buku</h1>
+            <p>Informasi lengkap tentang buku pilihan Anda</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="book-detail">
+            <div class="book-cover">
+                <img src="the innovator.jpg" alt="Cover The Innovators">
+            </div>
+            
+            <div class="book-info">
+                <h2 class="book-title">The Innovators</h2>
+                <p class="book-author">Walter Isaacson </p>
+                
+                <div class="book-synopsis">
+                    <h3>Sinopsis</h3>
+                    <p>Buku ini menceritakan kisah para pionir, peretas, penemu, dan pengusaha yang berperan dalam menciptakan revolusi digital. Isaacson membahas bagaimana mereka bekerja sama, bersaing, dan saling mempengaruhi dalam menciptakan teknologi yang kita gunakan saat ini. Buku ini mencakup berbagai tokoh, mulai dari Ada Lovelace, seorang matematikawan dan penulis, hingga Bill Gates, Steve Jobs, dan Mark Zuckerberg, tokoh-tokoh kunci dalam perkembangan komputer dan internet modern. </p>
+                </div>
+                
+                <div class="book-details">
+                    <p><strong>Penerbit:</strong>Bentang Pustaka</p>
+                    <p><strong>Tahun Terbit:</strong> 2016</p>
+                    <p><strong>Halaman:</strong> 532 halaman</p>
+                    <p><strong>Genre:</strong>Biografi, Sejarah, Non-Fiksi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Katalog Buku. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
